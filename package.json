@@ -1,0 +1,20 @@
+{
+    "name": "solana-sniper",
+    "version": "1.0.0",
+    "description": "Solana Sniper is an on-chain tool that scans a wallet and lists all its tokens along with their respective quantities",
+    "main": "main.ts",
+    "scripts": {
+        "start": "esrun main.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dev-ethanhh/solana-sniper"
+    },
+    "author": "dev-ethanhh",
+    "license": "GPL-3.0",
+    "dependencies": {
+        "@solana/spl-token": "^0.3.11",
+        "@solana/web3.js": "^1.89.1",
+        "esrun": "^3.2.26"
+    }
+}
